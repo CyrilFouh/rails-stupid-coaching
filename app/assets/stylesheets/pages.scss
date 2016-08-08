@@ -1,0 +1,42 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.card {
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin: 20px;
+  width: 300px;
+  border-left: solid 5px;
+  border-color: #dddbdb;
+  border-radius: 5px;
+  font-family: helvetica;
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+    color: #7a7a7a
+  }
+  a {
+    color: black;
+  }
+}
+
+.container {
+  background-size: cover;
+  display: flex;
+  margin: none;
+  height: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  form {
+    text-align: center;
+    input {
+      margin: 10px;
+    }
+
+  }
+}
+
+
